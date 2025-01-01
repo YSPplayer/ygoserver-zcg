@@ -617,7 +617,7 @@ void SingleDuel::TPResult(DuelPlayer* dp, unsigned char tp) {
 	set_message_handler(SingleDuel::MessageHandler);
 	///zdiy///
 	if (zcgMode) {
-		host_info.start_lp = 32000;
+		host_info.start_lp = 35000;
 		host_info.start_hand = 6;
 		host_info.draw_count = 2;
 	}
